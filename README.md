@@ -1,5 +1,6 @@
 # ambulance_crews
-[description removed].
+Решение задачи "Потребность в бригадах скорой помощи" от ICL в рамках Digital Healthcare
+DS Hackaton BCG Gamma.
 
 ## Планы / задачи
 Кооперируемся, делаем.
