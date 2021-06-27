@@ -5,10 +5,16 @@
     <title>predict</title>
 </head>
 <body>
-<img src={{url_for('static', filename='images/zzz.png')}} sizes="(max-width: 600px) 300px, (min-width: 600px) 600px">
+<p>РЕзульатат</p>
+<img src={{url_for('static', filename='images/sdf.png')}} sizes="(max-width: 600px) 300px, (min-width: 600px) 600px">
 <br>
-<p  >Резулльтат</p>
+
+<p  > Рекомендация
+
 <br>
-<p  > Рекомендация</p>
+{% block content %}
+<h3 class='text-primary'>{{pred}}</h3>
+</p>
+{% endblock %}
 </body>
 </html>

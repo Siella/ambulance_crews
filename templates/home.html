@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+#form {
+margin: 0 auto;
+align center
+}
+#option
+{
+margin: 0 auto;
+align center
+}
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
 <body>
-    <form action="" method="post">
-        <p>
+
+    <form align="center" action="" method="post" class="form-group">
+        <p position="centre" >
 	    <label for="zone">Выберите станцию</label>
-	    <select name = "zone" id = "method_cipher">
-                <option value="zone1">Станция1</option>
+	    <select lign="center" class="form-control" name = "zone" id = "method_cipher">
+                <option  value="zone1">Станция1</option>
                 <option value="zone2">Станция2</option>
 				<option value="zone3">Станция3</option>
                 <option value="zone4">Станция4</option>
@@ -21,41 +34,30 @@
             </select>
 
 	</p>
+
 	<p>
-	    <label for="feature">Выберите причину </label>
-		<select name = "feature" id = "feature">
-                <option value="feature1">Причина1</option>
-                <option value="feature2">Причина2</option>
-                <option value="feature3">Причина3</option>
-                <option value="feature4">Причина4</option>
-                <option value="feature5">Причина5</option>
-                <option value="feature6">Причина6</option>
-                <option value="feature7">Причина7</option>
-                <option value="feature8">Причина8</option>
-                <option value="feature9">Причина9</option>
-            </select>
-	</p>
 
 
 	<label for="start">Выберите дату:</label>
 
-	<input type="date" id="start" name="trip-start"
+	<input  class="form-control" type="date" id="start" name="data"
 		   value="2020-06-26"
 		   min="2018-01-01" max="2021-12-31">
-
-<p>
-	    <label for="part">Выберите смену </label>
-		<select name = "part" id = "part">
-                <option value="part1">Утренняя</option>
-                <option value="part2">Дневная</option>
-                <option value="part3">Вечерняя</option>
-                <option value="part4">Ночная</option>
-            </select>
 	</p>
- <p>
 
-	    <input type="submit" red>
+
+ <p>
+	    <input  class="form-control" type="submit" name="submit_button" value="Пред. День" >
+        <input  class="form-control" type="submit" name="submit_button" value="Добавить">
+        <input  class="form-control" type="submit" name="submit_button" value="Очистить">
+
+
+
 	</p>
 		</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
